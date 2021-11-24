@@ -93,7 +93,6 @@ function buttonAction9() {
   let con = document.getElementById("containerTable");
   let table = document.createElement("table");
   con.appendChild(table);
-
   for (let i = 0; i < arr.length / 7; i++) {
     let tr = document.createElement("tr");
     table.appendChild(tr);
@@ -107,13 +106,15 @@ function buttonAction9() {
       }
     }
   }
-} //Slut! Nu kan ni kolla över eran kod och lämna in. Gott jobbat!
 
-/*
- * Detta är en färdig procedur (funktion) som kopplar ihop händelsehanteraren
- * för alla knappar med de funktioner som ni har till uppgift att göra
- * NI SKALL INTE RÖRA NÅGOT HÄR:
- */
+  //Slut! Nu kan ni kolla över eran kod och lämna in. Gott jobbat!
+
+  /*
+   * Detta är en färdig procedur (funktion) som kopplar ihop händelsehanteraren
+   * för alla knappar med de funktioner som ni har till uppgift att göra
+   * NI SKALL INTE RÖRA NÅGOT HÄR:
+   */
+}
 
 function onDoneLoadingHtml() {
   document.getElementsByName("button1")[0].onclick = buttonAction1;
